@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string> 
+#include <cmath>
+using namespace std;
+int main()
+{
+double a,b;
+cin >>a;
+b= 180 * a;
+cout <<b<< ends;
+	
+
+}
