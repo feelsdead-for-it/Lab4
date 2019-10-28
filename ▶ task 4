@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string> 
+#include <cmath>
+using namespace std;
+int main()
+{
+	double v1,v2,s,s2,t;
+
+cin >>v1>> v2>>s>>t;
+s2 = (v1 + v2) * t + s;
+
+cout <<s2<< ends;
+	
+
+}
