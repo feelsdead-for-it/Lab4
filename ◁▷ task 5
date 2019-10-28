@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string> 
+#include <cmath>
+using namespace std;
+int main()
+{
+
+double a,b,x;
+cin>>a>>b;
+
+      if (a != 0) 
+{
+    
+x= (-b) / a;
+cout <<"x= "<<x;
+}
+else {
+
+		cout <<"Incorrect";
+	}
+    
+}
