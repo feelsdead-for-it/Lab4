@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string> 
+#include <cmath>
+using namespace std;
+int main()
+{
+double Cena1,Cena2,Kol1,Kol2,n;
+cin >>Kol1>>Cena1;
+
+cin >>Kol2;
+Cena2=(Cena1 * Kol2) / Kol1;
+n=Cena2 / Kol2;
+cout <<"1kilo="<<n<<" Y kilo="<<Cena2<< ends;
+
+	
+}
