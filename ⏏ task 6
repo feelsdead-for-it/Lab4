@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string> 
+#include <cmath>
+using namespace std;
+int main()
+{
+	double a1,a2,b1,b2,c1,c2,x,y,R,Rx,Ry;
+
+cin>>a1>>b1>>c1>>a2>>b2>>c2;
+
+R=(a1 * b2) - (a2 * b1);
+Rx=(c1 * b2) - (c2 * b1);
+Ry=(a1 * c2) - (a2 * c1);
+x= Rx / R;
+y= Ry / R;
+
+  cout<<"x= "<<x<<" y= "<<y<< ends;
+  
+}
